@@ -1,0 +1,25 @@
+Name: Dennis Hu
+Class: 135/136
+Project 2: Battleships
+
+Majority of the code was provided by professors.
+Students are to utilize the files and create a bot.cpp program.
+
+Goal: Create a bot.cpp program that implements an algorithm to take down the battleships.
+
+Algorithm:
+	This program starts from 0,0 and works through the board form left to right. 
+	
+	If HIT:
+		-> Check for vertical ship and marks around it and the program avoids those spots
+	
+		If Horizontal Ship
+		-> Mark "X"(HIT) all around it and the program avoids those spots
+	
+	If MISS: 
+	->Mark current index with "MISS"
+
+	If index is marked with either HIT or MISS 
+	->Continue to the next unmarked index
+
+
