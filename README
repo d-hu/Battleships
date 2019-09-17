@@ -11,9 +11,10 @@ Algorithm:
 	This program starts from 0,0 and works through the board form left to right. 
 	
 	If HIT:
-		-> Check for vertical ship and marks around it and the program avoids those spots
+		-> Check for vertical ship and marks around it and the program avoids
+		   those spots
 	
-		If Horizontal Ship
+		If Horizontal Ship:
 		-> Mark "X"(HIT) all around it and the program avoids those spots
 	
 	If MISS: 
@@ -22,4 +23,9 @@ Algorithm:
 	If index is marked with either HIT or MISS 
 	->Continue to the next unmarked index
 
-
+With the makefile
+	On linux : 
+	In terminal in the Battleships directory, type: 
+		"make all" to create executable objects
+		"./battleships" will execute the program
+		"make clean" to delete all objects.
